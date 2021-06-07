@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+nav {
+  height: 75px;
+  padding: 30px 0;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 38px;
+  font-size: 14px;
+}
+
+nav ul li a {
+  color: #999999;
+  text-decoration: none;
+}
+
+nav h1 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+nav .contact {
+  width: 30%;
+}
+
+nav .contact span {
+  color: #999999;
+  font-size: 14px;
+  float: right;
+}
+
+main img {
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+  -o-object-fit: contain-fit;
+     object-fit: contain-fit;
+}
+
+.cards {
+  margin: 110px 0;
+}
+
+.cards hr {
+  width: 1100px;
+  margin: 95px auto;
+  border: none;
+  height: 0.6px;
+  background-color: #999999;
+}
+
+.cards h1 {
+  width: 60%;
+  margin: auto;
+  font-size: 40px;
+  text-align: center;
+}
+
+.cards .card {
+  background-color: white;
+  width: 400px;
+}
+
+.cards .card:first-of-type {
+  margin-right: 30px;
+}
+
+.cards .card:last-of-type {
+  margin-left: 30px;
+}
+
+.cards .card h5 {
+  font-size: 26px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.cards .card p {
+  margin: 40px 0;
+  font-size: 18px;
+  color: #999999;
+}
+
+.cards .card button {
+  width: 147px;
+  height: 49px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.gallary .container {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.gallary h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.gallary img {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  height: 450px;
+  margin-right: 40px;
+}
+
+.gallary .for-pics {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  margin-top: -50px;
+}
+
+.gallary .for-pics div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 53px;
+}
+
+.gallary .for-pics img {
+  gap: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  border-top: 1px solid #999999;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer span {
+  margin-right: 32px;
+  font-size: 20px;
+  color: #999999;
+}
+/*# sourceMappingURL=style.css.map */
